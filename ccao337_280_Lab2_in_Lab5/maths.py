@@ -43,6 +43,12 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(number):
+<<<<<<< HEAD
     if number == 1:
         return number
     return number * factorial(number -1)
+=======
+    if number == 0:
+        return 1
+    return number * factorial(number -1)
+>>>>>>> refs/heads/Branch_ccao337_Eclipse_A
