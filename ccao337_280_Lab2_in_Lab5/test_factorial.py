@@ -1,7 +1,7 @@
 import unittest     # Import the Python unit testing framework
 import maths        # Our code to test
 
-class MathTest():
+class MathsTest(unittest.TestCase):
     def test_factorial(self):
         #Arrange
         self.number = 5
